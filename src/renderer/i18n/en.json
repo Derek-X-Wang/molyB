@@ -1,3 +1,69 @@
 {
-    "hello": "Hello World!"
+    "hello": "Hello World!",
+    "appMenu": {
+        "file": "File",
+        "fileMenu": {
+            "newTab": "New Tab",
+            "newPrivateTab": "New Private Tab",
+            "newTask": "New Task",
+            "savePageAs": "Save Page As",
+            "print": "Print"
+        },
+        "edit": "Edit",
+        "editMenu": {
+            "undo": "Undo",
+            "redo": "Redo",
+            "cut": "Cut",
+            "copy": "Copy",
+            "paste": "Paste",
+            "selectAll": "Select All",
+            "find": "Find"
+        },
+        "view": "View",
+        "viewMenu": {
+            "zoomIn": "Zoom In",
+            "zoomOut": "Zoom Out",
+            "actualSize": "Actual Size",
+            "fullScreen": "Full Screen",
+            "focusMode": "Focus Mode",
+            "readingList": "Reading List"
+        },
+        "developer": "Developer",
+        "developerMenu": {
+            "reloadBrowser": "Reload Browser",
+            "inspectBrowser": "Inspect Browser",
+            "inspectPage": "Inspect Page"
+        },
+        "window": "Window",
+        "windowMenu": {
+            "minimize": "Minimize",
+            "close": "Close"
+        },
+        "help": "Help",
+        "helpMenu": {
+            "keyboardShortcuts": "Keyboard Shortcuts",
+            "reportBug": "Report a Bug",
+            "takeTour": "Take a Tour",
+            "viewGithub": "View on GitHub"
+        }
+    },
+    "darwin": {
+        "menu": {
+            "about": "About molyB",
+            "preferences": "Preferences",
+            "services": "Services",
+            "hide": "Hide molyB",
+            "hideOthers": "Hide Others",
+            "showAll": "Show All",
+            "quit": "Quit molyB"
+        },
+        "dock": {
+            "newTab": "New Tab",
+            "newPrivateTab": "New Private Tab",
+            "newTask": "New Task"
+        }
+    },
+    "windows": {
+        "bringToFront": "Bring All to Front"
+    }
 }

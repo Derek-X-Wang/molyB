@@ -45,6 +45,7 @@ function createWindowWithBounds(bounds, shouldMaximize) {
     y: bounds.y,
     minWidth: 320,
     minHeight: 350,
+    // frame: false, // https://github.com/electron/electron/blob/master/docs/api/frameless-window.md
     titleBarStyle: 'hidden-inset',
     icon: `${__dirname}/static/icon256.png`,
   });
